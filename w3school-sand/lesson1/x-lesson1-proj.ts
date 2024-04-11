@@ -3,7 +3,9 @@
 type fav = [string, string, number];
 
 let people: fav[] = [["jon", "tacos", 33], ["mik", "fish", 1]];
-// log people array 
+// push new data into  people array 
 people.push( ["timmy", "timmy", 1]);
+// log people array 
+
 console.log(people);
-// ts-node to run 
+// ts-node <file name> to run 
